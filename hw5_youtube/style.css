@@ -1,7 +1,25 @@
 body{
     text-align: center;
+    font-family: Microsoft JhengHei;
 }
-h2{
-    height: 20px;
+.box{
+    box-sizing:content-box;
+    -moz-box-sizing:content-box; /* Firefox */
+    -webkit-box-sizing:content-box; /* Safari */
+    position:absolute;
+    padding:20px 20px;
+    width: 40%;
+    color: white; /* 文字顏色 */
+    background-color:#272727; /* 底色 */
+    border-radius:10px;
+    opacity: 90%;
 }
-
+#box1{
+    left:80px;
+}
+#box2{
+    right: 80px;
+}
+#playButton{
+    background-color:#7B7B7B; /* 底色 */
+}

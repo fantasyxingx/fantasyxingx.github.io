@@ -9,3 +9,9 @@ let playTime = [
     [23,32],
     [68,78]  
 ]
+
+let basePicture = [
+    "hw5_youtube/bluebird.jpg",
+    "hw5_youtube/Silhouette.png",
+    "hw5_youtube/Flow.png"
+]

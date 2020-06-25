@@ -14,7 +14,7 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
     <link href="hw5_youtube/style.css" rel="stylesheet">
-  
+    <link href="background/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -56,18 +56,24 @@
     </header>
 
     <main role="main">
-
-        <h1></h1>
-        <br><br><br>
-        <h2 id="song-title"></h2> <!--預計放歌名-->
+      <br><br><br>
+      <div class="box" id="box1">
+        <img src="hw5_youtube/Naruto_Logo.png" style="width: 400px;"><br>
+        <img id="base-picture" src="" style="width: 450px;">
+        <br>播放按鈕<input id="playButton" type="button" value="click">
+      </div>
+      <div class="box" id="box2">
+        <font id="song-title" size="20px">生物股長 - blue bird</font> <!--預計放歌名-->
         <br>
         <div id="player"></div>
-        <br>
-        <input id="playButton" type="button" value="play">
+      </div>
 
     </main>
 
-
+    <video autoplay muted loop id="myVideo">
+      <source src="background/background.mp4" type="video/mp4">
+    </video>
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

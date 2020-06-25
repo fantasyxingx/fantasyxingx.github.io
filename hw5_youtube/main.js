@@ -32,10 +32,11 @@ function onPlayerReady(event){
 }
 
 function onPlayerStateChange(event){
-    if(Math.floor(player.getCurrentTime())==playTime[currentPlay][1]){
-
-        if(currentPlay<playList.length-1){                    
+    $("#base-picture").attr("src",basePicture[currentPlay]);
+    if(Math.floor(player.getCurrentTime())==playTime[currentPlay][1]){ 
+        if(currentPlay<playList.length-1){
             currentPlay++;
+            $("#base-picture").attr("src",basePicture[currentPlay]);
             player.loadVideoById({
                 "videoId":playList[currentPlay],
                 "startSeconds":playTime[currentPlay][0],

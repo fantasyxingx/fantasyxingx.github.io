@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+#courseTable{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#courseTable th{
+    border-bottom: 1px solid blue;
+}
+hr{
+    width:70%;
+}

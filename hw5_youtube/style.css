@@ -15,10 +15,10 @@ body{
     opacity: 90%;
 }
 #box1{
-    left:80px;
+    left:50px;
 }
 #box2{
-    right: 80px;
+    right: 50px;
 }
 #playButton{
     background-color:#7B7B7B; /* 底色 */

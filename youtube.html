@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>fantasyxing-興趣推薦</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="hw5_youtube/style.css" rel="stylesheet">
+    <link href="background/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">個人頁面<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="random-selector.html">隨機選擇器</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="course-schedule.html">行程規劃表</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="psychological-test.html">遊戲1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="canvas-rpg.html">遊戲2</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="youtube.html">興趣推薦</a>
+          </li>
+
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <br><br><br>
+      <div class="box" id="box1">
+        <img src="hw5_youtube/Naruto_Logo.png" style="width: 320px;"><br>
+        <img id="base-picture" src="" style="width: 400px;">
+        <br>播放按鈕<input id="playButton" type="button" value="click">
+      </div>
+      <div class="box" id="box2">
+        <br>
+        <font id="song-title" size="6px">生物股長 - blue bird</font> <!--預計放歌名-->
+        <br><br>
+        <div id="player"></div>
+      </div>
+
+    </main>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="background/background.mp4" type="video/mp4">
+    </video>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="hw5_youtube/playerList.js"></script>
+    <script src="hw5_youtube/main.js"></script>  
+    </body>
+</html>

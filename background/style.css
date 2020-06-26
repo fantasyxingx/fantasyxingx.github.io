@@ -1,0 +1,16 @@
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+    z-index:-100;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  body{
+    text-align: center;
+    font-family: Microsoft JhengHei;
+  }
+  
+ 

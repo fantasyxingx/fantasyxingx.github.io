@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>fantasyxing-隨機選擇器</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="hw1_random_selector/style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="background/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">個人頁面<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="random-selector.html">隨機選擇器</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="course-schedule.html">行程規劃表</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="psychological-test.html">遊戲1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="canvas-rpg.html">遊戲2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="youtube.html">興趣推薦</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <br>
+      <div class="container" style="background-color:#CC6600  ; border-radius: 10px; padding: 0.5%;opacity:90%">
+        <div class="container" style="background-color:#FFDDAA; border-radius: 10px; padding: 3%; overflow:auto">  
+          <div class="row" style="font-size: 1.5rem; color:#CC6600">
+            <h1>隨機選擇器 - 不一定準，但肯定能為您解惑！ </h1>
+            <p>左邊可以輸入選項，右邊則可以隨機抽出輸入的選項</p>
+          </div>
+          <hr style="border-width: 5px;">
+          <div class="row" style="font-size: 1.5rem;">
+            <div class="col">
+              <div id="note" class="row" style="text-align: left;">
+                
+                <ul>
+                  <p>text list</p>
+                  <div id="choice-li">
+                  </div>
+                  <input id="list-input" type="text" placeholder="請輸入" style="height: 2rem;">
+                </ul>
+
+              </div>
+              <div class="row">
+          
+              </div>
+            </div>
+            <div class="col">
+              <h1 id="display-text">?</h1>
+              <input id="select-button" type="button" value="抽籤開始">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+    <video autoplay muted loop id="myVideo">
+      <source src="background/background.mp4" type="video/mp4">
+    </video>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="hw1_random_selector/list-data.js"></script>
+    <script src="hw1_random_selector/main.js"></script>
+    </body>
+</html>
